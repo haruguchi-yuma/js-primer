@@ -113,6 +113,38 @@ JavaScriptとDOMはWebアプリケーション開発において切っても切�
 - `index.js`からコンソールに出力されたログを確認した
 - JavaScriptからHTMLドキュメントを操作するDOMについて学んだ
 
+ここまでのアプリは次のURLで確認できます。
+
+- <https://jsprimer.net/use-case/ajaxapp/entrypoint/src/>
+
+<!-- sandpack:{
+  "files": {
+    "/index.js": {
+      "path": "src/index.js"
+    },
+    "/index.html": {
+      "path": "src/index.html",
+      "active": true
+    },
+    "/src/index.js": {
+      "code": "/* このファイルは本編とは無関係のファイルなので無視してください。 本編のindex.jsは一つ上のディレクトリにあります */",
+      "hidden": true
+    }
+  },
+  "entry": "/index.js",
+  "main": "/index.js",
+  "environment": "static",
+  "template": "vanilla",
+  "options": {
+    "showLineNumbers": true,
+    "editorHeight": 550
+  },
+  "honkitSettings": {
+    "isOpen": true,
+    "hideExitButton": true
+  }
+} -->
+
 [Same Origin Policy]: https://developer.mozilla.org/ja/docs/Web/Security/Same-origin_policy 
 [アプリケーション開発の準備]: ../../setup-local-env/README.md
 [Webコンソールを開く]: https://developer.mozilla.org/ja/docs/Tools/Web_Console/Opening_the_Web_Console
